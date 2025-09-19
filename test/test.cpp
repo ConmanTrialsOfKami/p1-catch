@@ -51,3 +51,27 @@ TEST_CASE("Example BST Insert", "[flag]"){
 		REQUIRE(actualOutput == expectedOutput);
 	*/
 }
+
+TEST_CASE("[P1] Incorrect commands for the 5", "[P1][cli]") {
+	SUCCEED("Placeholder for the 5 incorrect commands");
+
+}
+
+TEST_CASE("[P2] Insert and rotations (LL, RR, LR, RL)", "[P2][api]") {
+    SECTION("LL rotation (30, 20, 10)") {
+        SUCCEED("Placeholder LL rotation");
+    }
+    SECTION("RR rotation (10, 20, 30)") {
+        SUCCEED("Placeholder RR rotation");
+    }
+    SECTION("LR rotation (30, 10, 20)") {
+        SUCCEED("Placeholder LR rotation");
+    }
+    SECTION("RL rotation (10, 30, 20)") {
+        SUCCEED("Placeholder RL rotation");
+    }
+}
+
+TEST_CASE("[P3] Bulk insert 100, remove 10, verify inorder has 90") {
+    SUCCEED("Placeholder");
+}
